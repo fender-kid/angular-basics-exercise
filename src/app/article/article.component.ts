@@ -3,7 +3,10 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
-  styleUrls: ['./article.component.css'],
+  styleUrls: [
+    '../../../node_modules/bootstrap/dist/css/bootstrap.min.css',
+    './article.component.css'
+  ],
 })
 
 export class ArticleComponent {
